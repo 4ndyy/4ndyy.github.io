@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>San Francisco on Andy</title>
-    <link>http://example.org/categories/san-francisco/index.xml</link>
+    <link>https://4ndyy.github.io/categories/san-francisco/index.xml</link>
     <description>Recent content in San Francisco on Andy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright> </copyright>
-    <atom:link href="http://example.org/categories/san-francisco/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://4ndyy.github.io/categories/san-francisco/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>San Francisco: Night Work</title>
-      <link>http://example.org/san-francisco-night-work/</link>
+      <link>https://4ndyy.github.io/san-francisco-night-work/</link>
       <pubDate>Tue, 28 Aug 2012 18:00:00 -0800</pubDate>
       
-      <guid>http://example.org/san-francisco-night-work/</guid>
+      <guid>https://4ndyy.github.io/san-francisco-night-work/</guid>
       <description></description>
     </item>
     

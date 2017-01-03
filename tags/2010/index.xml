@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>2010 on Andy</title>
-    <link>http://example.org/tags/2010/index.xml</link>
+    <link>https://4ndyy.github.io/tags/2010/index.xml</link>
     <description>Recent content in 2010 on Andy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright> </copyright>
-    <atom:link href="http://example.org/tags/2010/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://4ndyy.github.io/tags/2010/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Madrid: Hotel Art</title>
-      <link>http://example.org/madrid-hotel-art/</link>
+      <link>https://4ndyy.github.io/madrid-hotel-art/</link>
       <pubDate>Fri, 17 Sep 2010 23:00:00 -0800</pubDate>
       
-      <guid>http://example.org/madrid-hotel-art/</guid>
+      <guid>https://4ndyy.github.io/madrid-hotel-art/</guid>
       <description></description>
     </item>
     
