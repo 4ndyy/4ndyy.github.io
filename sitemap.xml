@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://example.org/san-francisco-night-work/</loc>
+    <lastmod>2012-08-28T18:00:00-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/madrid-hotel-art/</loc>
+    <lastmod>2010-09-17T23:00:00-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/2010/</loc>
+    <lastmod>2010-09-17T23:00:00-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/2012/</loc>
+    <lastmod>2012-08-28T18:00:00-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/</loc>
+    <lastmod>2012-08-28T18:00:00-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/madrid/</loc>
+    <lastmod>2010-09-17T23:00:00-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/post/</loc>
+    <lastmod>2012-08-28T18:00:00-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/san-francisco/</loc>
+    <lastmod>2012-08-28T18:00:00-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
