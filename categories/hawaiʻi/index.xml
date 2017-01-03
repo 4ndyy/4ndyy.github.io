@@ -1,22 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>2012 on Andy</title>
-    <link>https://4ndyy.github.io/tags/2012/index.xml</link>
-    <description>Recent content in 2012 on Andy</description>
+    <title>Hawaiʻi on Andy</title>
+    <link>https://4ndyy.github.io/categories/hawai%CA%BBi/index.xml</link>
+    <description>Recent content in Hawaiʻi on Andy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright> </copyright>
-    <atom:link href="https://4ndyy.github.io/tags/2012/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>San Francisco: Night Work</title>
-      <link>https://4ndyy.github.io/san-francisco-night-work/</link>
-      <pubDate>Tue, 28 Aug 2012 18:00:00 -0800</pubDate>
-      
-      <guid>https://4ndyy.github.io/san-francisco-night-work/</guid>
-      <description></description>
-    </item>
+    <atom:link href="https://4ndyy.github.io/categories/hawai%CA%BBi/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Hawaiʻi: Panaʻewa Rainforest Zoo</title>

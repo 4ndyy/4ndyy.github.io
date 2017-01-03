@@ -16,7 +16,9 @@ body {
     font-size: 100%;
 }
 
-
+.pagination {
+  text-align: center;
+}
 
 
 
