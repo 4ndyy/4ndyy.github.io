@@ -23,11 +23,6 @@
 }
 
 /** Base ********************************************************************/
-body {
-    font-family: "Open Sans", "Helvetica Neue", "Helvetica", sans-serif;
-    color: #484644;
-}
-
 a,
 a:active,
 a:hover,
@@ -95,6 +90,7 @@ h1,h2,h3,h4,h5,h6 {
 /** Article *****************************************************************/
 .li-article {
     margin-bottom: 32px;
+    margin-top: 50px;
 }
 
 .li-article img {
@@ -161,7 +157,7 @@ ul.li-article-list {
 }
 
 .li-main-article-list {
-    margin-top: 128px;
+    margin-top: 50px;
 }
 
 /** Mobile Portrait (320px) **************************************************/
