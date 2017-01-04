@@ -10,8 +10,6 @@
         <link rel="stylesheet" href="https://4ndyy.github.io/css/main.css" />
         <link rel="stylesheet" href="https://4ndyy.github.io/css/nanogallery_clean.min.css" type="text/css" />
         <link rel="stylesheet" href="https://4ndyy.github.io/css/nanogallery_clean.woff.min.css" type="text/css" />
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-        <script type="text/javascript" src="https://4ndyy.github.io/js/jquery.nanogallery.min.js"></script>
         <link rel="shortcut icon" href="/favicon.ico" />
         <link rel="apple-touch-icon-precomposed" href="/apple-touch-icon-144-precomposed.png" sizes="144x144" />
         <link rel="alternate" href="https://4ndyy.github.io/tags/2010/index.xml" type="application/rss+xml" title="Andy" />
@@ -71,14 +69,15 @@
                 <div class="post-navigation"><nav class="pagination">
 &nbsp;&nbsp;&nbsp;
 </nav>
-
                 </div>
                 <div class="li-page-footer-theme">
                 </div>
             </div>
         </div>
     </div>
-</footer>    <script type="text/javascript">
+</footer>    <script type="text/javascript" src="https://4ndyy.github.io/js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="https://4ndyy.github.io/js/jquery.nanogallery.min.js"></script>
+    <script type="text/javascript">
     function toggle(id) {
         var e = document.getElementById(id);
         e.style.display == 'block' ? e.style.display = 'none' : e.style.display = 'block';
@@ -99,8 +98,8 @@
           $("#nanoGallery3").nanoGallery({
               itemsBaseURL:'https://img.andywimmer.com',
               theme: 'clean',
-              thumbnailHeight: 'auto',
-              thumbnailWidth: 440,
+              thumbnailHeight: 330,
+              thumbnailWidth: 'auto',
               thumbnailGutterWidth: 7,
               thumbnailGutterHeight: 7,
               thumbnailLabel: { display: false },

@@ -11,8 +11,6 @@
         <link rel="stylesheet" href="https://4ndyy.github.io/css/main.css" />
         <link rel="stylesheet" href="https://4ndyy.github.io/css/nanogallery_clean.min.css" type="text/css" />
         <link rel="stylesheet" href="https://4ndyy.github.io/css/nanogallery_clean.woff.min.css" type="text/css" />
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-        <script type="text/javascript" src="https://4ndyy.github.io/js/jquery.nanogallery.min.js"></script>
         <link rel="shortcut icon" href="/favicon.ico" />
         <link rel="apple-touch-icon-precomposed" href="/apple-touch-icon-144-precomposed.png" sizes="144x144" />
         <link rel="alternate" href="https://4ndyy.github.io/index.xml" type="application/rss+xml" title="Andy" />
@@ -36,7 +34,7 @@
         <h1><a href="https://4ndyy.github.io/san-francisco-night-work/">San Francisco: Night Work</a></h1>
         <time class="li-article-date">August 28, 2012</time>
     </header>
-    <section class="li-article-section"><p><img src="https://img.andywimmer.com/IMG_2550.jpg"></p>          
+    <section class="li-article-section"><p><img src="https://img.andywimmer.com/IMG_2550.jpg"></p>            
     </section>
     <footer>
         <p class="li-article-sep"><a href='https://4ndyy.github.io/san-francisco-night-work/'>More</a></p>
@@ -48,7 +46,7 @@
         <h1><a href="https://4ndyy.github.io/hawai%CA%BBi-pana%CA%BBewa-rainforest-zoo/">Hawaiʻi: Panaʻewa Rainforest Zoo</a></h1>
         <time class="li-article-date">April 12, 2012</time>
     </header>
-    <section class="li-article-section"><p><img src="https://img.andywimmer.com/IMG_0748.jpg"></p>                        
+    <section class="li-article-section"><p><img src="https://img.andywimmer.com/IMG_0748.jpg"></p>                         
     </section>
     <footer>
         <p class="li-article-sep"><a href='https://4ndyy.github.io/hawai%CA%BBi-pana%CA%BBewa-rainforest-zoo/'>More</a></p>
@@ -60,7 +58,7 @@
         <h1><a href="https://4ndyy.github.io/madrid-hotel-art/">Madrid: Hotel Art</a></h1>
         <time class="li-article-date">September 17, 2010</time>
     </header>
-    <section class="li-article-section">
+    <section class="li-article-section"><p><img src="https://img.andywimmer.com/IMG_1324.jpg"></p>             
     </section>
     <footer>
         <p class="li-article-sep"><a href='https://4ndyy.github.io/madrid-hotel-art/'>More</a></p>
@@ -72,7 +70,7 @@
         <h1><a href="https://4ndyy.github.io/madrid-almudena-cathedral/">Madrid: Almudena Cathedral</a></h1>
         <time class="li-article-date">September 12, 2010</time>
     </header>
-    <section class="li-article-section">
+    <section class="li-article-section"><p><img src="https://img.andywimmer.com/IMG_1301.jpg"></p>                                   
     </section>
     <footer>
         <p class="li-article-sep"><a href='https://4ndyy.github.io/madrid-almudena-cathedral/'>More</a></p>
@@ -84,7 +82,7 @@
         <h1><a href="https://4ndyy.github.io/madrid-buen-retiro-park/">Madrid: Buen Retiro Park</a></h1>
         <time class="li-article-date">September 11, 2010</time>
     </header>
-    <section class="li-article-section">
+    <section class="li-article-section"><p><img src="https://img.andywimmer.com/IMG_1138.jpg"></p>                                      
     </section>
     <footer>
         <p class="li-article-sep"><a href='https://4ndyy.github.io/madrid-buen-retiro-park/'>More</a></p>
@@ -128,14 +126,15 @@
 &nbsp;&nbsp;&nbsp;
       <a href="/page/2/">Older →</a>
 </nav>
-
                 </div>
                 <div class="li-page-footer-theme">
                 </div>
             </div>
         </div>
     </div>
-</footer>    <script type="text/javascript">
+</footer>    <script type="text/javascript" src="https://4ndyy.github.io/js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="https://4ndyy.github.io/js/jquery.nanogallery.min.js"></script>
+    <script type="text/javascript">
     function toggle(id) {
         var e = document.getElementById(id);
         e.style.display == 'block' ? e.style.display = 'none' : e.style.display = 'block';
@@ -156,8 +155,8 @@
           $("#nanoGallery3").nanoGallery({
               itemsBaseURL:'https://img.andywimmer.com',
               theme: 'clean',
-              thumbnailHeight: 'auto',
-              thumbnailWidth: 440,
+              thumbnailHeight: 330,
+              thumbnailWidth: 'auto',
               thumbnailGutterWidth: 7,
               thumbnailGutterHeight: 7,
               thumbnailLabel: { display: false },

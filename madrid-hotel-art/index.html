@@ -10,8 +10,6 @@
         <link rel="stylesheet" href="https://4ndyy.github.io/css/main.css" />
         <link rel="stylesheet" href="https://4ndyy.github.io/css/nanogallery_clean.min.css" type="text/css" />
         <link rel="stylesheet" href="https://4ndyy.github.io/css/nanogallery_clean.woff.min.css" type="text/css" />
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-        <script type="text/javascript" src="https://4ndyy.github.io/js/jquery.nanogallery.min.js"></script>
         <link rel="shortcut icon" href="/favicon.ico" />
         <link rel="apple-touch-icon-precomposed" href="/apple-touch-icon-144-precomposed.png" sizes="144x144" />
         <link rel="alternate" href="" type="application/rss+xml" title="Andy" />
@@ -40,6 +38,21 @@
                         <time class="li-article-date">September 17, 2010</time>
                     </header>
                     <section class="content">
+<div id="nanoGallery3">
+  <a href="IMG_1324.jpg" data-ngthumb="IMG_1324t.jpg" data-ngid="1324"></a>
+  <a href="IMG_1326.jpg" data-ngthumb="IMG_1326t.jpg" data-ngid="1326"></a>
+  <a href="IMG_1328.jpg" data-ngthumb="IMG_1328t.jpg" data-ngid="1328"></a>
+  <a href="IMG_1329.jpg" data-ngthumb="IMG_1329t.jpg" data-ngid="1329"></a>
+  <a href="IMG_1330.jpg" data-ngthumb="IMG_1330t.jpg" data-ngid="1330"></a>
+  <a href="IMG_1331.jpg" data-ngthumb="IMG_1331t.jpg" data-ngid="1331"></a>
+  <a href="IMG_1332.jpg" data-ngthumb="IMG_1332t.jpg" data-ngid="1332"></a>
+  <a href="IMG_1333.jpg" data-ngthumb="IMG_1333t.jpg" data-ngid="1333"></a>
+  <a href="IMG_1334.jpg" data-ngthumb="IMG_1334t.jpg" data-ngid="1334"></a>
+  <a href="IMG_1337.jpg" data-ngthumb="IMG_1337t.jpg" data-ngid="1337"></a>
+  <a href="IMG_1340.jpg" data-ngthumb="IMG_1340t.jpg" data-ngid="1340"></a>
+
+</div>
+
                     </section>
                 </article>
             </div>
@@ -47,14 +60,12 @@
         <div class="row li-pagination">
             <div class="eight columns">
                 <div class="li-pagination-previous">
-                        ← Newer<br />
-                        <a href="https://4ndyy.github.io/hawai%CA%BBi-pana%CA%BBewa-rainforest-zoo/"> Hawaiʻi: Panaʻewa Rainforest Zoo</a>
+                        <a href="https://4ndyy.github.io/hawai%CA%BBi-pana%CA%BBewa-rainforest-zoo/">← Newer</a><br />Hawaiʻi: Panaʻewa Rainforest Zoo
                 </div>
             </div>
             <div class="eight columns">
                 <div class="li-pagination-next">
-                        Older →<br />
-                        <a href="https://4ndyy.github.io/madrid-almudena-cathedral/"> Madrid: Almudena Cathedral</a>
+                        <a href="https://4ndyy.github.io/madrid-almudena-cathedral/">Older →</a><br />Madrid: Almudena Cathedral
                 </div>
             </div>
         </div>
@@ -71,7 +82,9 @@
             </div>
         </div>
     </div>
-</footer>    <script type="text/javascript">
+</footer>    <script type="text/javascript" src="https://4ndyy.github.io/js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="https://4ndyy.github.io/js/jquery.nanogallery.min.js"></script>
+    <script type="text/javascript">
     function toggle(id) {
         var e = document.getElementById(id);
         e.style.display == 'block' ? e.style.display = 'none' : e.style.display = 'block';
@@ -92,8 +105,8 @@
           $("#nanoGallery3").nanoGallery({
               itemsBaseURL:'https://img.andywimmer.com',
               theme: 'clean',
-              thumbnailHeight: 'auto',
-              thumbnailWidth: 440,
+              thumbnailHeight: 330,
+              thumbnailWidth: 'auto',
               thumbnailGutterWidth: 7,
               thumbnailGutterHeight: 7,
               thumbnailLabel: { display: false },
